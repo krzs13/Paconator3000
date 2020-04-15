@@ -1,13 +1,14 @@
-from get_key import GetKey, ClearConsole, Wait, WindowSize
 from random import randrange
-from start import Start
-from map import Map
-from paco import Paco
+
 from bird import Bird
 from bone import Bone
-from laser import Laser
 from game_over import GameOver
+from get_key import ClearConsole, GetKey, Wait, WindowSize
+from laser import Laser
+from map import Map
+from paco import Paco
 from saver import Saver
+from start import Start
 
 if __name__ == '__main__':
     map = Map(133, 33, '#')
@@ -224,4 +225,3 @@ if __name__ == '__main__':
                     Wait()
                 break
             break
-
